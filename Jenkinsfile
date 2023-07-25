@@ -31,8 +31,8 @@ pipeline {
                     tool: 'default'
                     id: "MAVEN_DEPLOYER",
                     serverId: "Jfrog_Devops",
-                    releaseRepo: 'onepiece-libs-release-local',
-                    snapshotRepo: 'onepiece-libs-snapshot-local'
+                    releaseRepo: 'onepiece-libs-release',
+                    snapshotRepo: 'onepiece-libs-snapshot'
                 )
                 rtMavenRun (                    
                     pom: 'pom.xml',
